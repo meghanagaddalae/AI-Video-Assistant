@@ -1,0 +1,4 @@
+FROM qwen3:4b
+PARAMETER num_predict 256
+PARAMETER temperature 0
+SYSTEM You are a helpful assistant. Answer directly and concisely. Do not provide internal reasoning. Give only the final answer.
